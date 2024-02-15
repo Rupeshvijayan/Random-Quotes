@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+.container{
+    height:100vh;
+    background-image: url(../images/img.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.quotes{
+    background-color: rgba(255,255,255,0.3);
+    width:60%;
+    border-radius:10px;
+    padding:50px 50px;
+}
+
+.quote{
+    font-size:2rem;
+    font-weight: 500;
+    padding:20px;   
+    letter-spacing:3px;
+    color:rgba(0,0,0,0.6);
+
+}
+.author{
+    padding:20px 40px 20px 0;
+    text-align:end;
+    font-weight:500;
+    color:rgba(0,0,0,0.7);
+    letter-spacing:1px;
+}
